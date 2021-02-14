@@ -132,7 +132,7 @@ sliderBtn.addEventListener('click', function () {
 
   const duration = document.getElementById('doration').value;
   if (duration < 0) {
-    window.alert("Sorry Sir! Duration value should be positive.");
+    window.alert("Sorry Sir! Duration value should be positive. Otherwise, it will be so fast");
   }
   else {
     createSlider();
